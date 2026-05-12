@@ -1,5 +1,6 @@
 #whalen rng
 import random
+import slaveAnson
 random.randint
 
 aura_list = [
@@ -121,37 +122,76 @@ high_aura_list = [
 
 Extraordinary_aura_list = [
     {
-        "name" : "sub 5 whalen",
+        "name" : "Sub 2 Whalen",
         "chance" : 0.50,
         aura_point += 1000
     }
     ,
     {
-        "name" : "Holy Aura",
+        "name" : "Skibidicoded Aura",
         "chance" : 0.25,
         aura_point += 1200
     }
     ,
     {
-        "name" : "Lightning Aura",
+        "name" : "Tung Tung Tung Aura",
         "chance" : 0.125,
         aura_point += 1750
     }
     ,
     {
-        "name" : "Eclipse Aura",
+        "name" : "Rizzatron 2000 Aura",
         "chance" : 0.583333,
         aura_point += 2500
     }
     ,
     {
-        "name" : "Void Aura",
+        "name" : "Skibidi Genesis Aura",
         "chance" : 0.559583,
         aura_point += 3500
     }   
     ,
     {
-        "name" : "Celestial Aura",
+        "name" : "Brainrot God Aura",
+        "chance" : 0.536458,
+        aura += 1000
+
+    }
+]
+
+WHALENTIER_AURA_list = [
+    {
+        "name" : "Sub 2 Whalen",
+        "chance" : 0.50,
+        aura_point += 1000
+    }
+    ,
+    {
+        "name" : "Skibidicoded Aura",
+        "chance" : 0.25,
+        aura_point += 1200
+    }
+    ,
+    {
+        "name" : "Tung Tung Tung Aura",
+        "chance" : 0.125,
+        aura_point += 1750
+    }
+    ,
+    {
+        "name" : "Rizzatron 2000 Aura",
+        "chance" : 0.583333,
+        aura_point += 2500
+    }
+    ,
+    {
+        "name" : "Skibidi Genesis Aura",
+        "chance" : 0.559583,
+        aura_point += 3500
+    }   
+    ,
+    {
+        "name" : "Brainrot God Aura",
         "chance" : 0.536458,
         aura += 1000
 
