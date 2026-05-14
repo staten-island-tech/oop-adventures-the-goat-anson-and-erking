@@ -1,199 +1,196 @@
-#whalen rng
-import random
-import slaveAnson
-random.randint
 
-aura_list = [
+[
     {
         "name" : "Common aura",
         "chance" : 0.50,
-        aura_point += 10
+        "list" : "low"
     }
     ,
     {
         "name" : "Uncommon Aura",
         "chance" : 0.25,
-        aura_point += 30
+        "list" : "low"
     }
     ,
     {
         "name" : "Rare Aura",
         "chance" : 0.125,
-        aura_point += 75
+        "list" : "low"
+        
     }
     ,
     {
         "name" : "Legendary Aura",
         "chance" : 0.0625,
-        aura_point += 200
+        "list" : "low"
     }
     ,
     {
         "name" : "Mythic Aura",
         "chance" : 0.03125,
-        aura_point += 450
+        "list" : "low"
     }   
     ,
     {
         "name" : "sub 5 whalen",
         "chance" : 0.015625,
-        aura += 1000
+        "list" : "low"
 
     }
 ]
 
-medium_aura_list = [
+[
     {
         "name" : "sub 5 whalen",
         "chance" : 0.50,
-        aura_point += 1000
+        "list" : "medium"
     }
     ,
     {
         "name" : "Holy Aura",
         "chance" : 0.25,
-        aura_point += 1200
+        "list" : "medium"
     }
     ,
     {
         "name" : "Lightning Aura",
         "chance" : 0.125,
-        aura_point += 1750
+        "list" : "medium"
     }
     ,
     {
         "name" : "Eclipse Aura",
         "chance" : 0.0625,
-        aura_point += 2500
+        "list" : "medium"
     }
     ,
     {
         "name" : "Void Aura",
         "chance" : 0.03125,
-        aura_point += 3500
+        "list" : "medium"
     }   
     ,
     {
         "name" : "Celestial Aura",
         "chance" : 0.015625,
-        aura += 7500
+        
 
     }
 ]
 
-high_aura_list = [
+[
     {
         "name" : "Celestial Aura",
         "chance" : 0.50,
-        aura_point += 7500
+        
     }
     ,
     {
         "name" : "Null Aura",
         "chance" : 0.25,
-        aura_point += 8750
+        
     }
     ,
     {
         "name" : "Coder Aura",
         "chance" : 0.125,
-        aura_point += 10500
+        
     }
     ,
     {
         "name" : "Admin Aura",
         "chance" : 0.0625,
-        aura_point += 15000
+        
     }
     ,
     {
         "name" : "Hacker Aura",
         "chance" : 0.03125,
-        aura_point += 23000
+        
     }   
     ,
     {
         "name" : "Auramaxxing Aura",
         "chance" : 0.015625,
-        aura += 40000
+        
 
     }
 ]
 
-Extraordinary_aura_list = [
+[
     {
         "name" : "Sub 2 Whalen",
         "chance" : 0.50,
-        aura_point += 1000
+        
     }
     ,
     {
         "name" : "Skibidicoded Aura",
         "chance" : 0.25,
-        aura_point += 1200
+       
     }
     ,
     {
         "name" : "Tung Tung Tung Aura",
         "chance" : 0.125,
-        aura_point += 1750
+        
     }
     ,
     {
         "name" : "Rizzatron 2000 Aura",
         "chance" : 0.583333,
-        aura_point += 2500
+       
     }
     ,
     {
         "name" : "Skibidi Genesis Aura",
         "chance" : 0.559583,
-        aura_point += 3500
+        
     }   
     ,
     {
         "name" : "Brainrot God Aura",
         "chance" : 0.536458,
-        aura += 1000
+        
 
     }
 ]
 
-WHALENTIER_AURA_list = [
+[
     {
-        "name" : "Sub 2 Whalen",
+        "name" : "Sacred Aura",
         "chance" : 0.50,
-        aura_point += 1000
+        
     }
     ,
     {
-        "name" : "Skibidicoded Aura",
+        "name" : "Divine Aura",
         "chance" : 0.25,
-        aura_point += 1200
+        
     }
     ,
     {
-        "name" : "Tung Tung Tung Aura",
+        "name" : "Trancendent Aura",
         "chance" : 0.125,
-        aura_point += 1750
+       
     }
     ,
     {
-        "name" : "Rizzatron 2000 Aura",
+        "name" : "God-like Aura",
         "chance" : 0.583333,
-        aura_point += 2500
+        
     }
     ,
     {
-        "name" : "Skibidi Genesis Aura",
+        "name" : " Aura",
         "chance" : 0.559583,
-        aura_point += 3500
+        
     }   
     ,
     {
-        "name" : "Brainrot God Aura",
+        "name" : " Aura",
         "chance" : 0.536458,
-        aura += 1000
+        
 
     }
 ]
