@@ -27,19 +27,19 @@
     ,
     {
         "name" : "Mythic Aura",
-        "chance" : 0.03125,
+        "chance" : 0.0452,
         "list" : "low"
     }   
     ,
     {
         "name" : "sub 5 whalen",
-        "chance" : 0.015625,
+        "chance" : 0.0173,
         "list" : "low"
 
     }
-]
+    ,
 
-[
+
     {
         "name" : "sub 5 whalen",
         "chance" : 0.50,
@@ -66,131 +66,131 @@
     ,
     {
         "name" : "Void Aura",
-        "chance" : 0.03125,
+        "chance" : 0.0452,
         "list" : "medium"
     }   
     ,
     {
         "name" : "Celestial Aura",
-        "chance" : 0.015625,
-        
+        "chance" : 0.0173,
+        "list" : "medium"
 
     }
-]
 
-[
+    ,
+
     {
         "name" : "Celestial Aura",
         "chance" : 0.50,
-        
+        "list" : "high"
     }
     ,
     {
         "name" : "Null Aura",
         "chance" : 0.25,
-        
+        "list" : "high"
     }
     ,
     {
         "name" : "Coder Aura",
         "chance" : 0.125,
-        
+        "list" : "high"
     }
     ,
     {
         "name" : "Admin Aura",
         "chance" : 0.0625,
-        
+        "list" : "high"
     }
     ,
     {
         "name" : "Hacker Aura",
-        "chance" : 0.03125,
-        
+        "chance" : 0.0452,
+        "list" : "high"
     }   
     ,
     {
         "name" : "Auramaxxing Aura",
-        "chance" : 0.015625,
-        
+        "chance" : 0.0173,
+        "list" : "high"
 
     }
-]
 
-[
+    ,
+
     {
         "name" : "Sub 2 Whalen",
         "chance" : 0.50,
-        
+        "list" : "extraordinary"
     }
     ,
     {
         "name" : "Skibidicoded Aura",
         "chance" : 0.25,
-       
+        "list" : "extraordinary"
     }
     ,
     {
         "name" : "Tung Tung Tung Aura",
         "chance" : 0.125,
-        
+        "list" : "extraordinary"
     }
     ,
     {
         "name" : "Rizzatron 2000 Aura",
-        "chance" : 0.583333,
-       
+        "chance" : 0.0625,
+        "list" : "extraordinary"
     }
     ,
     {
         "name" : "Skibidi Genesis Aura",
-        "chance" : 0.559583,
-        
+        "chance" : 0.0452,
+        "list" : "extraordinary"
     }   
     ,
     {
         "name" : "Brainrot God Aura",
-        "chance" : 0.536458,
-        
+        "chance" : 0.0173,
+        "list" : "extraordinary"
 
     }
-]
 
-[
+    ,
+
     {
         "name" : "Sacred Aura",
         "chance" : 0.50,
-        
+        "list" : "WHALEN"
     }
     ,
     {
         "name" : "Divine Aura",
         "chance" : 0.25,
-        
+        "list" : "WHALEN"
     }
     ,
     {
         "name" : "Trancendent Aura",
         "chance" : 0.125,
-       
+        "list" : "WHALEN"
     }
     ,
     {
         "name" : "God-like Aura",
-        "chance" : 0.583333,
-        
+        "chance" : 0.625,
+        "list" : "WHALEN"
     }
     ,
     {
-        "name" : " Aura",
-        "chance" : 0.559583,
-        
+        "name" : "Infinite Aura",
+        "chance" : 0.0452,
+        "list" : "WHALEN"
     }   
     ,
     {
-        "name" : " Aura",
-        "chance" : 0.536458,
-        
+        "name" : "Immeasurable Aura",
+        "chance" : 0.0173,
+        "list" : "WHALEN"
 
     }
 ]
