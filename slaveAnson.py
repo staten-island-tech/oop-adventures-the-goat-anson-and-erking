@@ -1,5 +1,11 @@
 #IDEA : WHALEN RNG
 import random
+import json
+with open("oopwork.json", "r") as file:
+    data = json.load(file)
+
+
+
 
 choices = ["win", "lose", "draw"]
 weights = [0.5, 0.3, 0.2]
