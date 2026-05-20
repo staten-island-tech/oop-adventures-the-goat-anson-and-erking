@@ -1,9 +1,12 @@
 #IDEA : WHALEN RNG
 import random
 import json
+import tkinter
+root = tkinter.Tk()
 
-with open("oopwork.json", "r") as file:
-    data = json.load(file)
+
+
+
 
 selected_list = "undefined"
 aura_level = 0
@@ -33,6 +36,10 @@ def Titles():
         selected_list = "low"
 
 
+
+
+
+
 # Load JSON file
 
     with open("oopwork.json", "r") as file:
@@ -56,3 +63,33 @@ def Titles():
     print("You rolled:", result)
 
 Titles()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+root.geometry("500x500")
+roll_button = tkinter.Button(root, text = "Roll for Auras")
+roll_button.pack(side = "bottom", ipady=20, fill="x")
+
+root.mainloop()
+with open("oopwork.json", "r") as file:
+    data = json.load(file)
+
+x = True
+while x == True:
+    if roll_button == True:
+        Titles()
+    else:
+        break
