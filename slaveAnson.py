@@ -12,6 +12,7 @@ selected_list = "undefined"
 aura_level = 0
 aura_point = 1000
 def Titles():
+    aura_point = 1000
     if aura_point >= 100000000000:
         print("Mogger High Tier Whalen Aura Points")
         selected_list = "WHALEN"
@@ -62,7 +63,22 @@ def Titles():
 
 Titles()
 
+import tkinter as tk
 
+root = tk.Tk()
+
+def button_pressed():
+    Titles()
+
+button = tk.Button(
+    root,
+    text="Click Me",
+    command=button_pressed
+)
+
+button.pack()
+
+root.mainloop()
 
 
 
