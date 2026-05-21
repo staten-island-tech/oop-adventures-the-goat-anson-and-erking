@@ -32,11 +32,6 @@ def Titles():
         print("Low Aura Points")
         selected_list = "low"
 
-
-
-
-
-
 # Load JSON file
 
     with open("oopwork.json", "r") as file:
@@ -60,29 +55,14 @@ def Titles():
 
     print("You rolled:", result)
 
+
+
+
+
+
 Titles()
 
 
 
 
 
-
-
-
-
-import tkinter as tk
-
-root = tk.Tk()
-
-def button_pressed():
-    Titles()
-
-button = tk.Button(
-    root,
-    text="Click Me",
-    command=button_pressed
-)
-
-button.pack()
-
-root.mainloop()
