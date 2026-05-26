@@ -11,9 +11,10 @@ root = tkinter.Tk()
 selected_list = "undefined"
 aura_level = 0
 aura_point = 1000
+
 def Titles():
     aura_point = 1000
-    if aura_point >= 100000000000:
+    if aura_point >= 10000000000000000:
         print("Mogger High Tier Whalen Aura Points")
         selected_list = "WHALEN"
     
@@ -29,56 +30,36 @@ def Titles():
         selected_list = "medium"
     
     
-    elif aura_point >= 100000:
-        print("Low Aura Points")
-        selected_list = "low"
+    else:
+            print("Low Aura Points")
+            selected_list = "low"
 
-# Load JSON file
+
 
     with open("oopwork.json", "r") as file:
         auras = json.load(file)
 
-    # Choose which list to roll from
-
-    # Filter only matching auras
     filtered_auras = [
         aura for aura in auras
         if aura["list"] == selected_list
     ]
 
-    # Get names and chances
-    names = [aura["name"] for aura in filtered_auras]
-    weights = [aura["chance"] for aura in filtered_auras]
+    result = random.choices(
+        filtered_auras,
+        weights=[aura["chance"] for aura in filtered_auras],
+        k=1
+    )[0]
 
-    # Roll aura
-    result = random.choices(names, weights=weights, k=1)[0]
-    aura_point+=result["aura_quantity"]
+    aura_point += result["aura_quantity"]
 
-    print("You rolled:", result)
-
-
-
+    print("You rolled:", result["name"])
+    print("Aura gained:", result["aura_quantity"])
+    print("Total aura:", aura_point)
 
 
 
 Titles()
 
-import tkinter as tk
-
-root = tk.Tk()
-
-def button_pressed():
-    Titles()
-
-button = tk.Button(
-    root,
-    text="Click Me",
-    command=button_pressed
-)
-
-button.pack()
-
-root.mainloop()
 
 
 
