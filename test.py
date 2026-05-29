@@ -1,32 +1,33 @@
 import random
 import json
-import tkinter
 
-root = tkinter.Tk()
+auras = open("./oopwork.json", encoding="utf8")
+data = json.load(auras)
 
 selected_list = "undefined"
 aura_level = 0
-aura_point = 1000
+aura_point = 10000000000000
 
 
 def Titles():
+
     global selected_list
     global aura_point
 
-    # Determine title tier
+    # Tier selection
     if aura_point >= 10000000000000000:
         print("Mogger High Tier Whalen Aura Points")
         selected_list = "WHALEN"
 
-    elif aura_point >= 100000000000:
+    elif aura_point >= 100000000:
         print("Extraordinary Aura Points")
         selected_list = "extraordinary"
 
-    elif aura_point >= 10000000000:
+    elif aura_point >= 10000000:
         print("High Aura Points")
         selected_list = "high"
 
-    elif aura_point >= 10000000:
+    elif aura_point >= 10000:
         print("Medium Aura Points")
         selected_list = "medium"
 
@@ -34,32 +35,45 @@ def Titles():
         print("Low Aura Points")
         selected_list = "low"
 
-    # Load aura data
     with open("oopwork.json", "r") as file:
         auras = json.load(file)
 
-    # Filter by selected rarity list
+    # Choose which list to roll from
+
+    # Filter only matching auras
     filtered_auras = [
         aura for aura in auras
         if aura["list"] == selected_list
     ]
 
-    # Pick random aura
-    result = random.choices(
-        filtered_auras,
-        weights=[aura["chance"] for aura in filtered_auras],
-        k=1
-    )[0]
+    # Get names and chances
+    names = [aura["name"] for aura in filtered_auras]
+    weights = [aura["chance"] for aura in filtered_auras]
 
-    # Add aura points
-    aura_point += result["aura_quantity"]
+    # Roll aura
+    result = random.choices(names, weights=weights, k=1)[0]
+   
 
-    print("You rolled:", result["name"])
-    print("Aura gained:", result["aura_quantity"])
-    print("Total aura:", aura_point)
+    print("You rolled:", result)
+
+Titles()
 
 
-# Example rolls
-for i in range(5):
+
+
+import tkinter as tk
+
+root = tk.Tk()
+
+def button_pressed():
     Titles()
-    print("-----")
+
+button = tk.Button(
+    root,
+    text="Click Me",
+    command=button_pressed
+)
+
+button.pack()
+
+root.mainloop()
