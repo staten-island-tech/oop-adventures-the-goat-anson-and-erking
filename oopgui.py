@@ -5,7 +5,7 @@ root = tkinter.Tk()
 root.geometry("500x500")
 
 try:
-    open_image = Image.open("Screenshot 2026-05-28 095222.jpg")
+    open_image = Image.open("Screenshot 2026-05-28 095049.jpg")
     open_image = open_image.resize((400, 300)) 
     aura_image = ImageTk.PhotoImage(open_image)
     
