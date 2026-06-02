@@ -6,7 +6,7 @@ data = json.load(auras)
 
 selected_list = "undefined"
 aura_level = 0
-aura_point = 10000000000000
+aura_point = 10
 
 
 def Titles():
@@ -49,9 +49,10 @@ def Titles():
     # Get names and chances
     names = [aura["name"] for aura in filtered_auras]
     weights = [aura["chance"] for aura in filtered_auras]
-
+    
+    aura_point = [aura["aura_quantity"] for aura in filtered_auras]
     # Roll aura
-    result = random.choices(names, weights=weights, k=1)[0]
+    result = random.choices(names, aura_point=aura_point, weights=weights, k=1)[0]
    
 
     print("You rolled:", result)
