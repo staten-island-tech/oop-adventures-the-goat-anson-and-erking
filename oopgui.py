@@ -38,22 +38,20 @@ def Titles():
     with open("oopwork.json", "r") as file:
         auras = json.load(file)
 
-    # Choose which list to roll from
 
-    # Filter only matching auras
     filtered_auras = [
         aura for aura in auras
         if aura["list"] == selected_list
     ]
 
-    # Get names and chances
+
     names = [aura["name"] for aura in filtered_auras]
     weights = [aura["chance"] for aura in filtered_auras]
 
-    # Roll aura
-    result = random.choices(names, weights=weights, k=1)[0]
+    
+    result = random.choices(names , weights=weights, k=1)[0]
    
-
+    print(result[weights])
     print("You rolled:", result)
 
 Titles()
@@ -65,7 +63,7 @@ root = tkinter.Tk()
 root.geometry("500x500")
 
 try:
-    open_image = Image.open("Screenshot 2026-05-28 095049.jpg")
+    open_image = Image.open("Screenshot 2026-05-28 095222.jpg")
     open_image = open_image.resize((400, 300)) 
     aura_image = ImageTk.PhotoImage(open_image)
     
