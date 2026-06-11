@@ -43,18 +43,17 @@ def Titles():
         aura for aura in auras
         if aura["list"] == selected_list
     ]
-
+    print(filtered_auras)
 
     names = [aura["name"] for aura in filtered_auras]
     weights = [aura["chance"] for aura in filtered_auras]
-
+    
     
     result = random.choices(names , weights=weights, k=1)[0]
    
-    print(result[weights])
     print("You rolled:", result)
 
-Titles()
+
 
 import tkinter
 from PIL import Image, ImageTk
