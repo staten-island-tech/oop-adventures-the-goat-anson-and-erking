@@ -1,251 +1,241 @@
 
 [
     {
-        "name" : "Common aura",
-        "chance" : 50,
-        "aura_quantity" : 10,
-        "list" : "low"
-
+        "name": "Common aura",
+        "chance": 50,
+        "aura_quantity": 10,
+        "list": "low",
+        "image": "Common_aura.jpg"
     }
     ,
     {
-        "name" : "Uncommon Aura",
-        "chance" : 25,
-        "aura_quantity" : 20,
-        "list" : "low"
-        
+        "name": "Uncommon Aura",
+        "chance": 25,
+        "aura_quantity": 20,
+        "list": "low",
+        "image": "Uncommon_aura.jpg"
+    },
+    {
+        "name": "Rare Aura",
+        "chance": 12.5,
+        "aura_quantity": 30,
+        "list": "low",
+        "image": "Rare_aura.jpg"
     }
     ,
     {
-        "name" : "Rare Aura",
-        "chance" : 12.5,
-        "aura_quantity" : 30,
-        "list" : "low"
-               
+        "name": "Legendary Aura",
+        "chance": 6.25,
+        "aura_quantity": 40,
+        "list": "low",
+        "image": "Legendary_aura.jpg"
     }
     ,
     {
-        "name" : "Legendary Aura",
-        "chance" : 6.25,
-        "aura_quantity" : 40,
-        "list" : "low"
-        
+        "name": "Mythic Aura",
+        "chance": 4.52,
+        "aura_quantity": 50,
+        "list": "low",
+        "image": "Screenshot 2026-05-28 095049.jpg"
     }
     ,
     {
-        "name" : "Mythic Aura",
-        "chance" : 4.52,
-        "aura_quantity" : 50,
-        "list" : "low"
-    }   
-    ,
-    {
-        "name" : "sub 5 whalen",
-        "chance" : 1.73,
-        "aura_quantity" : 60,
-        "list" : "low"
-        
-
-    }
-    
-    ,
-
-    {
-        "name" : "sub 5 whalen",
-        "chance" : 0.50,         
-        "aura_quantity" : 60,
-        "list" : "medium"
-
+        "name": "sub 5 whalen",
+        "chance": 1.73,
+        "aura_quantity": 60,
+        "list": "low",
+        "image": "Sub5Whalen_aura.jpg"
     }
     ,
     {
-        "name" : "Holy Aura",
-        "chance" : 0.25,
-        "aura_quantity" : 100,
-        "list" : "medium"
-        
+        "name": "sub 5 whalen",
+        "chance": 0.50,
+        "aura_quantity": 60,
+        "list": "medium",
+        "image": "Sub5Whalen_aura.jpg"
     }
     ,
     {
-        "name" : "Lightning Aura",
-        "chance" : 0.125,
-        "aura_quantity" : 120,
-        "list" : "medium"
+        "name": "Holy Aura",
+        "chance": 0.25,
+        "aura_quantity": 100,
+        "list": "medium",
+        "image": "Holy_aura.jpg"
     }
     ,
     {
-        "name" : "Eclipse Aura",
-        "chance" : 0.0625,
-        "aura_quantity" : 150,
-        "list" : "medium"
-        
+        "name": "Lightning Aura",
+        "chance": 0.125,
+        "aura_quantity": 120,
+        "list": "medium",
+        "image": "Lighting_aura.jpg"
     }
     ,
     {
-        "name" : "Void Aura",
-        "chance" : 0.0452,
-        "aura_quantity" : 175,      
-        "list" : "medium"
-        
-    }   
-    ,
-    {
-        "name" : "Celestial Aura",
-        "chance" : 0.0173,
-        "aura_quantity" : 200,
-        "list" : "medium"
-   
-
-    }
-
-    ,
-
-    {
-        "name" : "Celestial Aura",
-        "chance" : 0.50,
-        "aura_quantity" : 200,
-        "list" : "high"
-        
+        "name": "Eclipse Aura",
+        "chance": 0.0625,
+        "aura_quantity": 150,
+        "list": "medium",
+        "image": "Eclipse_aura.jpg"
     }
     ,
     {
-        "name" : "Null Aura",
-        "chance" : 0.25,
-        "aura_quantity" : 250,
-        "list" : "high"
+        "name": "Void Aura",
+        "chance": 0.0452,
+        "aura_quantity": 175,
+        "list": "medium",
+        "image": "Void_aura.jpg"
     }
     ,
     {
-        "name" : "Coder Aura",
-        "chance" : 0.125,
-        "aura_quantity" : 260,
-        "list" : "high"
-        
+        "name": "Celestial Aura",
+        "chance": 0.0173,
+        "aura_quantity": 200,
+        "list": "medium",
+        "image": "Celestial_aura.jpg"
     }
     ,
     {
-        "name" : "Admin Aura",
-        "chance" : 0.0625,
-        "aura_quantity" : 275,
-        "list" : "high"
-        
+        "name": "Celestial Aura",
+        "chance": 0.50,
+        "aura_quantity": 200,
+        "list": "high",
+        "image": "Celestial_aura.jpg"
     }
     ,
     {
-        "name" : "Hacker Aura",
-        "chance" : 0.0452,
-        "aura_quantity" : 500,
-        "list" : "high"
-        
-    }   
-    ,
-    {
-        "name" : "Auramaxxing Aura",
-        "chance" : 0.0173,
-        "aura_quantity" : 550,
-        "list" : "high"
-        
-
-    }
-
-    ,
-
-    {
-        "name" : "Sub 2 Whalen",
-        "chance" : 0.50,
-        "aura_quantity" : -1,
-        "list" : "extraordinary"
-        
+        "name": "Null Aura",
+        "chance": 0.25,
+        "aura_quantity": 250,
+        "list": "high",
+        "image": "Null_aura.jpg"
     }
     ,
     {
-        "name" : "Skibidicoded Aura",
-        "chance" : 0.25,
-        "aura_quantity" : 575,
-        "list" : "extraordinary"
-        
+        "name": "Coder Aura",
+        "chance": 0.125,
+        "aura_quantity": 260,
+        "list": "high",
+        "image": "Coder_aura.jpg"
     }
     ,
     {
-        "name" : "Tung Tung Tung Aura",
-        "chance" : 0.125,
-        "aura_quantity" : 600,
-        "list" : "extraordinary"
-        
+        "name": "Admin Aura",
+        "chance": 0.0625,
+        "aura_quantity": 275,
+        "list": "high",
+        "image": "Admin_aura.jpg"
     }
     ,
     {
-        "name" : "Rizzatron 2000 Aura",
-        "chance" : 0.0625,
-        "aura_quantity" : 6750,
-        "list" : "extraordinary"
-        
+        "name": "Hacker Aura",
+        "chance": 0.0452,
+        "aura_quantity": 500,
+        "list": "high",
+        "image": "Hacker_aura.jpg"
     }
     ,
     {
-        "name" : "Skibidi Genesis Aura",
-        "chance" : 0.0452,
-        "aura_quantity" : 75000,
-        "list" : "extraordinary"
-        
-    }   
-    ,
-    {
-        "name" : "Brainrot God Aura",
-        "chance" : 0.0173,
-        "aura_quantity" : 100000,
-        "list" : "extraordinary"
-        
-    }
-
-    ,
-
-    {
-        "name" : "Sacred Aura",
-        "chance" : 0.50,
-        "aura_quantity" : 20000,
-        "list" : "WHALEN"
-        
+        "name": "Auramaxxing Aura",
+        "chance": 0.0173,
+        "aura_quantity": 550,
+        "list": "high",
+        "image": "Auramaxxing_aura.jpg"
     }
     ,
     {
-        "name" : "Divine Aura",
-        "chance" : 0.25,
-        "aura_quantity" : 300000,
-        "list" : "WHALEN"
-        
+        "name": "Sub 2 Whalen",
+        "chance": 0.50,
+        "aura_quantity": -1,
+        "list": "extraordinary",
+        "image": "Sub2Whalen_aura.jpg"
     }
     ,
     {
-        "name" : "Trancendent Aura",
-        "chance" : 0.125,
-        "aura_quantity" : 500000,
-        "list" : "WHALEN"
-        
+        "name": "Skibidicoded Aura",
+        "chance": 0.25,
+        "aura_quantity": 575,
+        "list": "extraordinary",
+        "image": "Skibidicoded_aura.jpg"
     }
     ,
     {
-        "name" : "God-like Aura",
-        "chance" : 0.0625,
-        "aura_quantity" : 500000,
-        "list" : "WHALEN"
-        
+        "name": "Tung Tung Tung Aura",
+        "chance": 0.125,
+        "aura_quantity": 600,
+        "list": "extraordinary",
+        "image": "TripleT_aura.jpg"
     }
     ,
     {
-        "name" : "Infinite Aura",
-        "chance" : 0.0452,
-        "aura_quantity" : 60000,
-        "list" : "WHALEN"
-        
-    }   
+        "name": "Rizzatron 2000 Aura",
+        "chance": 0.0625,
+        "aura_quantity": 6750,
+        "list": "extraordinary",
+        "image": "Screenshot 2026-05-28 095049.jpg"
+    }
     ,
     {
-        "name" : "Immeasurable Aura",
-        "chance" : 0.0173,
-        "aura_quantity" : 700000,
-        "list" : "WHALEN"
-        
-
+        "name": "Skibidi Genesis Aura",
+        "chance": 0.0452,
+        "aura_quantity": 75000,
+        "list": "extraordinary",
+        "image": "Skibidigenesis_aura.jpg"
+    }
+    ,
+    {
+        "name": "Brainrot God Aura",
+        "chance": 0.0173,
+        "aura_quantity": 100000,
+        "list": "extraordinary",
+        "image": "BrainrotGod_aura.jpg"
+    }
+    ,
+    {
+        "name": "Sacred Aura",
+        "chance": 0.50,
+        "aura_quantity": 20000,
+        "list": "WHALEN",
+        "image": "Sacred_aura.jpg"
+    }
+    ,
+    {
+        "name": "Divine Aura",
+        "chance": 0.25,
+        "aura_quantity": 300000,
+        "list": "WHALEN",
+        "image": "Divine_aura.jpg"
+    }
+    ,
+    {
+        "name": "Trancendent Aura",
+        "chance": 0.125,
+        "aura_quantity": 500000,
+        "list": "WHALEN",
+        "image": "Trancendent_aura.jpg"
+    }
+    ,
+    {
+        "name": "God-like Aura",
+        "chance": 0.0625,
+        "aura_quantity": 500000,
+        "list": "WHALEN",
+        "image": "God-like_aura.jpg"
+    }
+    ,
+    {
+        "name": "Infinite Aura",
+        "chance": 0.0452,
+        "aura_quantity": 60000,
+        "list": "WHALEN",
+        "image": "Infinite_aura.jpg"
+    }
+    ,
+    {
+        "name": "Immeasurable Aura",
+        "chance": 0.0173,
+        "aura_quantity": 700000,
+        "list": "WHALEN",
+        "image": "Immeasurable_aura.jpg"
     }
 ]
